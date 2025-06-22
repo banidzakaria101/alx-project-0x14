@@ -4,6 +4,7 @@ import { faTwitter, faFacebook, faInstagram } from "@fortawesome/free-brands-svg
 
 const Footer: React.FC = () => {
   return (
+
     <footer className="bg-[#171D22] text-white py-10 px-6 md:px-10 lg:px-20">
       <div className="flex flex-col md:flex-row justify-between items-center w-full">
         {/* Footer Logo */}
