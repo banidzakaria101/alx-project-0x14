@@ -29,7 +29,7 @@ const Movies: React.FC<MProps> = () => {
       headers: {
         'Content-Type': 'application/json; charset=utf-8'
       }
-    })
+    });
 
     if (!response.ok) {
       setLoading(false)
@@ -43,13 +43,9 @@ const Movies: React.FC<MProps> = () => {
     setLoading(false)
   }, [page, year, genre])
 
-
   useEffect(() => {
     fetchMovies()
   }, [fetchMovies])
-
-
-
 
   return (
     <div className="min-h-screen bg-[#110F17] text-white px-4 md:px-10 lg:px-44">
@@ -109,8 +105,8 @@ const Movies: React.FC<MProps> = () => {
   }
 </div>
 
-  )
-}
+  );
+};
 
 
 export default Movies;
