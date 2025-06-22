@@ -1,5 +1,5 @@
-import Link from "next/link"
-import Button from "../commons/Button"
+import Link from "next/link";
+import Button from "../commons/Button";
 
 const Header: React.FC = () => {
   return (
@@ -20,7 +20,7 @@ const Header: React.FC = () => {
       </div>
     </header>
 
-  )
-}
+  );
+};
 
-export default Header
+export default Header;
